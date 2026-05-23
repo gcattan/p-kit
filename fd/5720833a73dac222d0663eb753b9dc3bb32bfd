@@ -1,0 +1,14 @@
+p_kit/library/__init__.py
+  h_57d8170b41e3bb 2-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "fd5720833a73dac222d0663eb753b9dc3bb32bfd",
+  "prompts": {},
+  "humans": {
+    "h_57d8170b41e3bb": {
+      "author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
