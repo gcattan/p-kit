@@ -1,0 +1,29 @@
+p_kit/solver/csd_solver.py
+  s_8d5ee834138b77::t_5666f726390209 11,28-30
+README.md
+  s_418066cbc0cf99::t_e9338818b72ff5 37-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "88eb7bc23190de8329dc1073dfe6ab422a91e22d",
+  "prompts": {},
+  "sessions": {
+    "s_418066cbc0cf99": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "386103ea-c1fa-4333-89ff-6f27328cf9f5",
+        "model": "unknown"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    },
+    "s_8d5ee834138b77": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4b44e35c-bfa4-419b-b1a9-a638b66425a0",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
