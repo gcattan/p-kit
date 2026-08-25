@@ -1,0 +1,39 @@
+examples/gibbs_and_gate.py
+  s_8105e0c0a73707::t_8a8f85fac42d13 1-33
+p_kit/solver/__init__.py
+  s_8105e0c0a73707::t_b7c2b76b2c8dcc 2,5
+CLAUDE.md
+  s_8105e0c0a73707::t_3fc1d11438f818 46-47
+  s_8105e0c0a73707::t_a3e39731e0f905 43-45
+  s_8105e0c0a73707::t_6adfa955dccd06 48-50
+  s_8105e0c0a73707::t_388c0b970b083a 1-42,51-68
+tests/test_gibbs_solver.py
+  s_8105e0c0a73707::t_27e07e82dea273 89
+  s_8105e0c0a73707::t_f6e62c16f0e312 3,11-16,18-31,33-41,43-44,49-55,58-60,62-63,65-73,75-88,90-110
+  s_8105e0c0a73707::t_f296eb7892701a 1-2,4-10,17
+  s_8105e0c0a73707::t_7f97529b6fc38a 32
+  s_8105e0c0a73707::t_f4105a21ccea2a 74
+  s_8105e0c0a73707::t_b86020cbe4d172 42,45-48,56-57,61,64
+  s_8105e0c0a73707::t_9c39b261ac04cd 111-114
+p_kit/solver/gibbs_solver.py
+  s_8105e0c0a73707::t_b26ab0b72ccddb 86
+  s_8105e0c0a73707::t_17edef1aa43056 45-51,58-63,65-70
+  s_8105e0c0a73707::t_8e675b9b88b8a3 74-75
+  s_8105e0c0a73707::t_849cdb4fef12b5 1-44,52-57,64,71-73,76-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "019ea65eea5c21b609c5e2e34abee76968ada9c0",
+  "prompts": {},
+  "sessions": {
+    "s_8105e0c0a73707": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f57095a3-a270-40d7-8484-47cef48f49cd",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
