@@ -1,0 +1,25 @@
+p_kit/solver/gibbs_solver.py
+  s_8105e0c0a73707::t_0b3f6559a190ae 7,15-27,38-41,59-61,70-85,87-90
+examples/gibbs_and_gate.py
+  s_8105e0c0a73707::t_9348f9a7944640 20-25
+CLAUDE.md
+  s_8105e0c0a73707::t_07809cbe762d18 46
+tests/test_gibbs_solver.py
+  s_8105e0c0a73707::t_feb2a4d674fe58 42-50,53,57-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "7dbc6f641f6f1be0c0fd13f0dc53938dea7bf328",
+  "prompts": {},
+  "sessions": {
+    "s_8105e0c0a73707": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f57095a3-a270-40d7-8484-47cef48f49cd",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
