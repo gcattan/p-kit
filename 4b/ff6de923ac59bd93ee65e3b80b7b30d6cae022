@@ -1,0 +1,37 @@
+examples/llm/llm_model.py
+  s_32497e61f2887f::t_067dc7c1bdb918 164
+  s_32497e61f2887f::t_e83644b5af72e6 128
+p_kit/backends/numpy_backend.py
+  s_32497e61f2887f::t_d9906e4ddb65f2 16-20,32
+  s_32497e61f2887f::t_216038735d25eb 55
+p_kit/backends/base.py
+  s_32497e61f2887f::t_e6d5764a942be2 30-37
+tests/test_return_final.py
+  s_32497e61f2887f::t_fbc8a8779d172d 6-16,76-83,88-92,98,107-108,111,125,139,152,155-157,161,174-178,186-190,199
+  s_32497e61f2887f::t_7b218288b4e60e 179-182
+p_kit/solver/csd_solver.py
+  s_32497e61f2887f::t_9080a3fd34a585 250-253
+  s_32497e61f2887f::t_774ad16a1e49a1 351
+  s_32497e61f2887f::t_f3c58fee849ea7 85,98,102,108-115
+p_kit/backends/torch_backend.py
+  s_32497e61f2887f::t_a432fe1776ec9e 91
+  s_32497e61f2887f::t_9dc8b14214414c 40
+examples/llm/llm_demo_004.py
+  s_32497e61f2887f::t_9ff2948c0c672b 165-166
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "4bff6de923ac59bd93ee65e3b80b7b30d6cae022",
+  "prompts": {},
+  "sessions": {
+    "s_32497e61f2887f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "858f4cbf-c3dc-4528-bd25-1c37cf125a8e",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
