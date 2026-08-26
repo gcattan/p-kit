@@ -1,0 +1,55 @@
+setup.py
+  s_146d3e2f01683c::t_d07d43a7d3c010 49-50
+p_kit/solver/annealing.py
+  s_32497e61f2887f::t_8048cc5d45eae0 15
+p_kit/psl/p_circuit.py
+  s_146d3e2f01683c::t_445ff907bd25e1 65
+  s_146d3e2f01683c::t_9015e13ab2f039 33,35-36
+  s_32497e61f2887f::t_cef0ccdbf7785a 34
+p_kit/solver/base_solver.py
+  s_32497e61f2887f::t_90069207882001 1,5,12,18,20-21
+examples/tsp.py
+  s_32497e61f2887f::t_744aba741c8920 40
+p_kit/backends/__init__.py
+  s_32497e61f2887f::t_3d915209b25282 1-16
+p_kit/solver/csd_solver.py
+  s_32497e61f2887f::t_ca31b14f704282 1-2,6-34,40-68,102-103,106-107,111-152,164
+p_kit/backends/numpy_backend.py
+  s_32497e61f2887f::t_9c5479a38f6925 1-29
+p_kit/backends/torch_backend.py
+  s_32497e61f2887f::t_e30a39b50210de 1,6-8,10-22,24,26,32,39-44,51-53,55-58,61-65,67-71,73,76,78,84-85,87-88,90-95
+examples/llm/llm_demo_004.py
+  s_32497e61f2887f::t_e1d2dbecd2ae03 155-156,161,163,166-167
+  s_32497e61f2887f::t_302a2f3ffff393 133,136-139
+  s_32497e61f2887f::t_acba1987daa462 4-8,10-11,17,23-25,37
+p_kit/backends/cupy_backend.py
+  s_32497e61f2887f::t_b3d021e09610e8 1-39
+p_kit/backends/base.py
+  s_32497e61f2887f::t_0db2710d29a190 1-57
+examples/llm/README.md
+  s_146d3e2f01683c::t_a406dcf63c62d3 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "3a526dab21bf4f9b7b8803b2fe9afdafe9bd1a54",
+  "prompts": {},
+  "sessions": {
+    "s_146d3e2f01683c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5fa2664f-7ff4-4bc9-9fe4-031d8bb17358",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    },
+    "s_32497e61f2887f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "858f4cbf-c3dc-4528-bd25-1c37cf125a8e",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
