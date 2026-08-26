@@ -1,0 +1,21 @@
+p_kit/backends/numpy_backend.py
+  s_32497e61f2887f::t_1b111dd02f73a8 5-24,27,29-37,39-45,65-76
+setup.py
+  s_32497e61f2887f::t_0da3be5188ca85 49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "c33eeed87dd94d50639c0038713fe44b0979e075",
+  "prompts": {},
+  "sessions": {
+    "s_32497e61f2887f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "858f4cbf-c3dc-4528-bd25-1c37cf125a8e",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
