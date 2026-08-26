@@ -1,0 +1,87 @@
+examples/llm/llm_demo_004.py
+  s_32497e61f2887f::t_ce90baedaadf48 136,139-142
+  s_32497e61f2887f::t_e6a1167455ba03 39
+  s_32497e61f2887f::t_2797179f5acf61 160
+  s_32497e61f2887f::t_e8f3b2df73fd1d 19-23,27
+p_kit/solver/gibbs_solver.py
+  s_32497e61f2887f::t_a93f42da191639 76
+  s_32497e61f2887f::t_9812dfe71ab495 93-103
+  s_32497e61f2887f::t_d547d12ca34c45 48-53
+  s_32497e61f2887f::t_d52b6588b6a218 45-47
+  s_32497e61f2887f::t_9626b253d867c1 54-56,73-75
+  s_32497e61f2887f::t_a705c68b8f111f 77-79,90-92
+  s_32497e61f2887f::t_aada18ec919b2d 1-44,57-72,80-89
+p_kit/solver/optimized_csd_solver.py
+  s_32497e61f2887f::t_10404237c42879 217-222
+  s_32497e61f2887f::t_7d297c478ae22b 104-114
+  s_32497e61f2887f::t_98270298aa4f49 9
+  s_32497e61f2887f::t_52207ac3f08300 237
+  s_32497e61f2887f::t_d924c194af767f 66-86
+  s_32497e61f2887f::t_d0a6ecf13e82cb 6-8
+  s_32497e61f2887f::t_cf8e9979203c60 10-12,63-65
+  s_32497e61f2887f::t_81f72b32d199bc 87-89,101-103
+  s_32497e61f2887f::t_31c49ac40c5c11 115-117,214-216
+  s_32497e61f2887f::t_796b3d2ee122ea 223-225,234-236
+  s_32497e61f2887f::t_4401d7131f8e5d 238-240
+  s_32497e61f2887f::t_db0c4ec32b6882 1-5,13-62,90-100,118-213,226-233,241-243
+README.md
+  s_418066cbc0cf99::t_ee610882d8e7ea 26-32
+examples/llm/README.md
+  s_32497e61f2887f::t_b6f96525457012 52
+p_kit/solver/__init__.py
+  s_89dd3f59ee7ed5::t_4f69590fc513e9 2,5
+setup.py
+  s_146d3e2f01683c::t_b87e95e8a5d4c7 48-49
+CLAUDE.md
+  s_32497e61f2887f::t_ebf436bdc5430b 1-68
+examples/gibbs_and_gate.py
+  s_32497e61f2887f::t_74909e222e78e4 1-34
+examples/llm/llm_demo_003.py
+  s_32497e61f2887f::t_3041ec8115d2a2 19-20
+examples/llm/llm_demo_005.py
+  s_32497e61f2887f::t_db51562a154da4 1-189
+examples/llm/llm_model.py
+  s_32497e61f2887f::t_ee5a51b4955fa5 52,123-124,129-134,162,164-172,234-235,237-238,240-248,251,253-262,264
+tests/test_gibbs_solver.py
+  s_32497e61f2887f::t_423fc6ffc5606e 1-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "66c32e356133fe708af1d43da79e4b97c93cc8e1",
+  "prompts": {},
+  "sessions": {
+    "s_146d3e2f01683c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5fa2664f-7ff4-4bc9-9fe4-031d8bb17358",
+        "model": "unknown"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    },
+    "s_32497e61f2887f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "858f4cbf-c3dc-4528-bd25-1c37cf125a8e",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    },
+    "s_418066cbc0cf99": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "386103ea-c1fa-4333-89ff-6f27328cf9f5",
+        "model": "unknown"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    },
+    "s_89dd3f59ee7ed5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a71603707985d74a4",
+        "model": "unknown"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
