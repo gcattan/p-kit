@@ -1,0 +1,22 @@
+p_kit/visualization/hypercube.py
+  s_0eee646e539c14::t_5bb41790c0b076 12-13,20-22,97,99-101,103-216,218-222,224-225,229,238-244,254-256,265
+  s_0eee646e539c14::t_c34f77f8775d57 217
+examples/llm/llm_demo_005.py
+  s_0eee646e539c14::t_86807d253c834a 191-194,196-199
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "fc8eb2cd1947544aead76a6831f4a78f4b4544b8",
+  "prompts": {},
+  "sessions": {
+    "s_0eee646e539c14": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9d0b3fdd-a193-4ac8-b244-47333ca57c67",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
