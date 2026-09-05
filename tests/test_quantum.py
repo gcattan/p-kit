@@ -1,7 +1,10 @@
+import itertools
+
 import numpy as np
 import pytest
 from p_kit.library.quantum import TransverseFieldIsing
 from p_kit.solver import CaSuDaSolver
+from p_kit.solver.annealing import constant
 
 
 def _make(n=3, R=4, gamma=0.5, beta=1.0, seed=0):
@@ -80,3 +83,56 @@ def test_solve():
     solver = CaSuDaSolver(Nt=100, dt=0.1667, i0=0.8, seed=42)
     _, all_m, _ = solver.solve(c)
     assert all_m.shape[-1] == c.n_pbits
+
+
+def _brute_force_qubo_min(qubo):
+    n = qubo.shape[0]
+    best = None
+    for bits in itertools.product([0, 1], repeat=n):
+        x = np.array(bits, dtype=float)
+        val = x @ qubo @ x
+        if best is None or val < best:
+            best = val
+    return best
+
+
+@pytest.mark.parametrize("qubo", [
+    np.array([[1.0, -2.0], [0.0, 1.0]]),
+    np.random.default_rng(0).standard_normal((4, 4)),
+])
+def test_from_qubo_h_matches_energy(qubo):
+    """h_q/j_q must encode -x^T Q x up to an additive constant: the
+    "maximize" energy F(s) = h@s + 0.5*s@J@s (the same form used by
+    CaSuDaSolver/GibbsSolver) has to differ from -x^T Q x by a constant
+    across every spin configuration, not just at the optimum.
+    """
+    n = qubo.shape[0]
+    circuit = TransverseFieldIsing.from_qubo(qubo, gamma=0.0, n_replicas=1)
+    J, h = circuit.J, circuit.h
+
+    offsets = []
+    for bits in itertools.product([-1, 1], repeat=n):
+        s = np.array(bits, dtype=float)
+        x = (1 + s) / 2
+        F = h @ s + 0.5 * s @ J @ s
+        offsets.append(F + x @ qubo @ x)
+
+    np.testing.assert_allclose(offsets, offsets[0])
+
+
+def test_from_qubo_solver_finds_optimum():
+    qubo = np.array([
+        [1.0, -2.0, 0.0],
+        [0.0, 1.0, -2.0],
+        [0.0, 0.0, 1.0],
+    ])
+    true_min = _brute_force_qubo_min(qubo)
+
+    circuit = TransverseFieldIsing.from_qubo(qubo, gamma=0.0, n_replicas=1)
+    solver = CaSuDaSolver(Nt=2000, dt=0.1667, i0=2.0, seed=7)
+    _, all_m, _ = solver.solve(circuit, annealing_func=constant)
+
+    x_samples = (all_m[-500:] + 1) / 2
+    values = np.einsum("ij,jk,ik->i", x_samples, qubo, x_samples)
+    assert np.isclose(values.min(), true_min)
+    assert np.mean(np.isclose(values, true_min)) > 0.3

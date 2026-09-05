@@ -92,5 +92,5 @@ class TransverseFieldIsing(PCircuit):
         qubo_sym = qubo + qubo.T - np.diag(np.diag(qubo))   # symmetrise, count diagonal once
         j_q = -qubo_sym / 4
         np.fill_diagonal(j_q, 0)
-        h_q = -np.sum(qubo_sym, axis=1) / 4
+        h_q = -(np.sum(qubo_sym, axis=1) + np.diag(qubo_sym)) / 4
         return cls(j_q, h_q, gamma, beta, n_replicas)
