@@ -1,0 +1,26 @@
+p_kit/library/quantum.py
+  s_b41a2e76269a30::t_5e7a6cdee8dff7 95
+tests/test_quantum.py
+  s_b41a2e76269a30::t_f8d37faadd54c4 7
+  s_b41a2e76269a30::t_c6284cd23fbb17 131
+  s_b41a2e76269a30::t_cb201e28dadc04 132-133,135,138
+  s_b41a2e76269a30::t_e148656f2de9fd 110
+  s_b41a2e76269a30::t_7e246b6f26f63b 86-109,111-130,134,136-137
+  s_b41a2e76269a30::t_e9d72bfa30baef 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "2d49936e879a673554818054cfc51f46841795b7",
+  "prompts": {},
+  "sessions": {
+    "s_b41a2e76269a30": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fa49b6e1-75be-40ac-9430-49c56b165609",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Gregoire CATTAN <gregoire.cattan@ibm.com>"
+    }
+  }
+}
